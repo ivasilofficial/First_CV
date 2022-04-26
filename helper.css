@@ -1,0 +1,47 @@
+body {
+  background-color: antiquewhite;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  /*когда мышка наведена*/
+  text-decoration: underline;
+}
+
+h1 {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  box-shadow: 0 0 10px red;
+  border: 1px white solid;
+  width: 250px;
+  height: 250px;
+  margin-top: 35px;
+}
+
+.info li {
+  color: black;
+  margin: 0;
+}
+
+.info {
+  display: flex;
+}
+
+.info-text {
+  margin-left: 15px;
+}
+
+.container {
+  max-width: 75%;
+  margin: auto;
+}
